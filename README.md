@@ -1,16 +1,17 @@
-# counter
 
-A new Flutter project.
+# Contador Simples de Visitantes em Flutter
 
-## Getting Started
+Este é um aplicativo Flutter simples que implementa um contador de visitantes para um local, controlando o fluxo de entrada e saída.
 
-This project is a starting point for a Flutter application.
+## Visão geral do aplicativo
 
-A few resources to get you started if this is your first Flutter project:
+Ao iniciar o aplicativo, é apresentada uma página inicial com o texto 'Pode entrar!', uma contagem inicial de '0' e dois botões, 'Sair' e 'Entrou'.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Ao pressionar o botão 'Entrou', o contador aumenta. Quando o contador atinge 20, o texto no topo da tela muda para 'Lotado', o texto e os números ficam vermelhos, e o botão 'Entrou' fica desativado, indicando que o local está lotado.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Ao pressionar o botão 'Sair', o contador diminui. Se o contador já estiver em '0', o botão 'Sair' será desativado.
+
+## Screenshots
+
+![App](https://github.com/MarcosAndre28/FlutterCounter/assets/34040590/1559f8cc-d217-41d2-bf80-646786953ca2)
+
